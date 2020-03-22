@@ -11,6 +11,6 @@ class Author
   end
   
   def add_post(post)
-    @
+    Author.post == self
     
 end 
