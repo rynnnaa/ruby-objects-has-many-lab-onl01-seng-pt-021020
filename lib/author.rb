@@ -22,7 +22,7 @@ class Author
   end
   
   def self.post_count
-    Post.all.include?{|post| post.author == self}
+    Post.all.count
   end
     
 end 
