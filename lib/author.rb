@@ -11,7 +11,7 @@ class Author
   end
   
   def add_post(post)
-    Author.post == self
+    post = selfAuthor.post == self
   end
     
 end 
